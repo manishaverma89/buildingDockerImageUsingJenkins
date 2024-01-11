@@ -10,7 +10,7 @@ pipeline {
                   //sh 'docker build -t myfirstpythonapp .' 
                   //sh 'docker run --name C1 myfirstpythonapp'
                   //sh 'docker ps'
-                  sh 'ansible-playbook -i inventoryfile builddockerimage.yaml'
+                  sh 'ansible-playbook  builddockerimage.yaml'
                 }
  
             }
