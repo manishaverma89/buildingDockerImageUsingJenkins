@@ -1,5 +1,6 @@
 ---
-- hosts: node1 
+- hosts: localhost
+  connection: local
   tasks:
   - name: build docker image
     shell: "docker build -t ansible-docker-image ."
