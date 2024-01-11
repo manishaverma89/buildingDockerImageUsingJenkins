@@ -1,7 +1,5 @@
 ---
 - hosts: node1 
-  become: true
-
   tasks:
   - name: build docker image
     command: docker build -t ansible-docker-image .
