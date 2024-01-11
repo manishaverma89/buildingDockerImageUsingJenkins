@@ -8,6 +8,7 @@ pipeline {
                   echo 'Hello World'
                   sh 'pwd'
                   sh 'docker build -t myfirstpythonapp .'
+                  sh 'docker run --name C1 myfirstpythonapp'
 
                 }
  
